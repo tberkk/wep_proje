@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{ /* anasayfa resmim kısmı */
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+}
+/*Üst kısım CSS*/
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 100%;
+}
+/* #home .name{
+    text-align: center;
+} */
+#home .name h2{
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+#home .name p{
+    opacity: 0.6;
+}
+/* Myself Section */
+#myself{
+    color: #fff;
+    padding: 1rem;
+}
+#myself .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myself .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#myself .items .item:hover{
+    color: honeydew;
+    opacity: 0.7;
+}
+
+/* Course */
+
+#panels{
+    color: #333;
+    padding: 1rem;
+}
+.panels{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.panels .panel{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.panels .panel .panel-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.panels .panel .panel-image img{
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+.panels .panel .panel-info .title{
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+.panels .panel .panel-info .description{
+    margin-bottom: 00.25rem;
+    opacity: 0.6;
+}
+
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ozgecmis */
+
+#cv-ortapanel{
+    padding-left: 15%;
+    padding-top: 5%;
+    flex-direction: column;
+    padding-right: 15%;
+}
+#cv-ortapanel .items .item h3{
+    font-size: 24px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #336ea2;
+    line-height: 24px;
+    border-bottom: 1px solid #336ea2;
+    position: relative;
+}
+#cv-ortapanel .items .item h3 i{
+    padding-right: 1%;
+}
+#cv-ortapanel .items .item p{
+    padding-top: 1%;
+}
+#cv-ortapanel .items .item .cv-bilgiler{
+    padding-top: 1%;
+}
+#cv-ortapanel .items .item .cv-bilgiler span{
+    float: right;
+}
+#cv-ortapanel .items .item .cv-egitim{
+    padding-top: 1%;
+}
+#cv-ortapanel .items .item .cv-egitim span{
+    float: right;
+}
+
+/* istanbul */
+
+#istanbul-ortapanel{
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 15%;
+    flex-direction: column;
+}
+#istanbul-ortapanel .items .item h3{
+    font-size: 24px;
+    color: #336ea2;
+    border-bottom: 1px solid #333;
+}
+#istanbul-ortapanel .items .item .istanbul-bilgiler span{
+    float: right;
+}
+
+/* kultur */
+
+#kultur-ortapanel{
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+#kultur-ortapanel .items .item h3{
+    font-size: 24px;
+    color: #336ea2;
+    border-bottom: 1px solid #333;
+    padding-top: 1%;
+}
+#kultur-ortapanel .items .item p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#kultur-ortapanel .items .item .img{
+    height: 400px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#kultur-ortapanel .items .item .kultur-bilgiler label{
+    font-weight: bold;
+}
+#kultur-ortapanel .items .item .kultur-bilgiler span{
+    float: right;
+}
